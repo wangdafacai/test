@@ -1,0 +1,6 @@
+study_id,province,sex,year_start,year_end,age_start,age_end,sample_size,cases,method,bias_flag
+S1,Alpha,Female,2000,2000,10,14,120,18,Survey,0
+S1,Alpha,Male,2000,2000,10,14,100,12,Survey,0
+S2,Beta,Both,2005,2005,15,24,200,25,Administrative,1
+S3,Gamma,Female,2015,2016,25,34,150,30,Survey,0
+S3,Gamma,Male,2015,2016,25,34,140,28,Survey,0
