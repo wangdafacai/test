@@ -1,0 +1,17 @@
+.Rhistory
+.RData
+.Rproj.user/
+.Rproj
+.Rbuildignore
+__pycache__/
+*.RDS
+*.rds
+clean/
+ed_bayes_outputs/
+examples/mock_outputs/
+*.log
+*.pdf
+*.png
+*.jpeg
+*.jpg
+sessionInfo.txt

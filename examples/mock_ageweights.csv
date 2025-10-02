@@ -1,0 +1,5 @@
+profile_id,age_start,age_end,weight
+S1,10,14,1
+S1,15,19,0
+S2,15,19,0.6
+S2,20,24,0.4
