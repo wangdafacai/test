@@ -69,7 +69,7 @@ Rscript 03_model_nimble.R
 
 ### 04_postprocess_plots.R
 * Combines posterior draws and metadata to generate observation-level posterior summaries, province/national aggregates, time trends (2000–2025), age curves (10–80), sex comparisons, and sensitivity summaries.
-* Exports CSV summaries to `ed_bayes_outputs/summaries/` and ggplot visualisations (province bars, national trends, age curves, sex contrasts, sensitivity comparisons, convergence diagnostics) to `ed_bayes_outputs/plots/`.
+* Exports CSV summaries to `ed_bayes_outputs/summaries/` (including `age_group_summary.csv` with female, male, and combined age-specific prevalence) and ggplot visualisations (province bars, national trends, age curves, sex contrasts, sensitivity comparisons, convergence diagnostics) to `ed_bayes_outputs/plots/`.
 
 Run standalone (after modelling):
 
@@ -102,7 +102,15 @@ For a lightweight smoke test, use the files under `examples/`:
 
 1. Copy `examples/mock_data_long.csv` to a workbook containing a sheet named `Data_Long` (the cleaner expects Excel input). Any spreadsheet editor can import the CSV and save as `.xlsx`.
 2. Optionally supply `examples/mock_ageweights.csv` to `02_build_age_basis.R` via `age_weight_path`.
-3. Run the pipeline with:
+3. (Optional) Generate synthetic province-level covariates for SDI, total population, and age structure by running:
+
+```bash
+Rscript examples/generate_mock_covariates.R
+```
+
+This writes CSVs to `examples/mock_covariates/` (`province_sdi.csv`, `province_population_2020.csv`, `province_age_structure.csv`, and `province_extra_covariates.csv`). Point any exploratory model scripts to those paths when you need placeholder covariates.
+
+4. Run the pipeline with:
 
 ```bash
 Rscript ed_pipeline_nimble.R input_path=examples/mock_data_long.csv age_weight_path=examples/mock_ageweights.csv
