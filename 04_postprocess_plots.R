@@ -115,7 +115,7 @@ summarise_group <- function(df, group_cols) {
     )
 }
 
-compute_age_draws <- function(draws, basis_grid, sex_draws) {
+compute_age_curves <- function(draws, basis_grid, sex_draws, ages, label) {
   alpha <- draws[, "alpha"]
   spline_draws <- extract_draws(draws, "^spline_coefs\\[")
   eta <- matrix(alpha, nrow = nrow(draws), ncol = nrow(basis_grid))
@@ -123,11 +123,8 @@ compute_age_draws <- function(draws, basis_grid, sex_draws) {
     eta <- eta + t(basis_grid %*% t(spline_draws))
   }
   eta <- eta + matrix(sex_draws, nrow = nrow(draws), ncol = nrow(basis_grid))
-  logit_inv(eta)
-}
-
-summarise_age_draws <- function(prob_matrix, ages, label) {
-  stats <- summarise_matrix_draws(prob_matrix)
+  prob <- logit_inv(eta)
+  stats <- summarise_matrix_draws(prob)
   stats$age_group <- ages
   stats$sex <- label
   stats
@@ -203,27 +200,10 @@ run_postprocess <- function(posterior_file = file.path("ed_bayes_outputs", "mode
   readr::write_csv(time_summary, file.path(summaries_dir, "time_summary.csv"))
   sex_levels <- c("Female", "Male", "Mixed")
   observation_summary$sex <- factor(sex_levels[observation_summary$sex_idx], levels = sex_levels)
-  female_draws <- compute_age_draws(draws, basis_grid, draws[, "sex_beta[1]"])
-  male_draws <- compute_age_draws(draws, basis_grid, draws[, "sex_beta[2]"])
-  age_curves_f <- summarise_age_draws(female_draws, age_grid$age_group, "Female")
-  age_curves_m <- summarise_age_draws(male_draws, age_grid$age_group, "Male")
-  female_fraction_vec <- dplyr::case_when(
-    metadata$sex_idx == 1 ~ 1,
-    metadata$sex_idx == 2 ~ 0,
-    TRUE ~ dplyr::coalesce(metadata$female_share, 0.5)
-  )
-  total_sample <- sum(metadata$sample_size, na.rm = TRUE)
-  female_total <- sum(metadata$sample_size * female_fraction_vec, na.rm = TRUE)
-  female_weight <- if (is.finite(total_sample) && total_sample > 0) female_total / total_sample else 0.5
-  if (!is.finite(female_weight) || female_weight < 0 || female_weight > 1) {
-    female_weight <- 0.5
-  }
-  combined_draws <- female_weight * female_draws + (1 - female_weight) * male_draws
-  age_curves_overall <- summarise_age_draws(combined_draws, age_grid$age_group, "Overall")
-  age_curve_summary <- dplyr::bind_rows(age_curves_f, age_curves_m, age_curves_overall)
-  readr::write_csv(age_curve_summary, file.path(summaries_dir, "age_group_summary.csv"))
-  readr::write_csv(dplyr::filter(age_curve_summary, sex %in% c("Female", "Male")),
-                   file.path(summaries_dir, "age_curves.csv"))
+  age_curves_f <- compute_age_curves(draws, basis_grid, draws[, "sex_beta[1]"], age_grid$age_group, "Female")
+  age_curves_m <- compute_age_curves(draws, basis_grid, draws[, "sex_beta[2]"], age_grid$age_group, "Male")
+  age_curves <- dplyr::bind_rows(age_curves_f, age_curves_m)
+  readr::write_csv(age_curves, file.path(summaries_dir, "age_curves.csv"))
   sensitivity <- collect_sensitivity_results(observation_summary, output_dir)
   readr::write_csv(sensitivity, file.path(summaries_dir, "sensitivity_summary.csv"))
   # Plots
@@ -242,8 +222,7 @@ run_postprocess <- function(posterior_file = file.path("ed_bayes_outputs", "mode
     ggplot2::labs(title = "Time trend (2000-2025)", x = "Year", y = "Prevalence") +
     ggplot2::theme_minimal()
   ggplot2::ggsave(file.path(plots_dir, "time_trend.png"), national_plot, width = 8, height = 5, dpi = 120)
-  age_curves_plot <- dplyr::filter(age_curve_summary, sex %in% c("Female", "Male"))
-  age_plot <- ggplot2::ggplot(age_curves_plot, ggplot2::aes(x = age_group, y = mean, color = sex, group = sex)) +
+  age_plot <- ggplot2::ggplot(age_curves, ggplot2::aes(x = age_group, y = mean, color = sex, group = sex)) +
     ggplot2::geom_line() +
     ggplot2::geom_ribbon(ggplot2::aes(ymin = lower, ymax = upper, fill = sex), alpha = 0.2, colour = NA) +
     ggplot2::scale_y_continuous(labels = scales::percent_format(accuracy = 0.1)) +
