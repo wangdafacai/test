@@ -1,0 +1,177 @@
+﻿study_id,id,survey_year_mid,province_std,location_province,city_raw,location_city,level_flag,setting,population,sex,sampling_method,age_min,age_max,endpoint,method_type,cases,n,prev_prop,risk_bias_overall
+15,83,2015,安徽,Anhui,芜湖,,province_proxy_city,school,university_students,mixed,convenience,12,19,total_ed,screen,59,1328,4.44%,8
+15,84,2015,安徽,Anhui,芜湖,,province_proxy_city,school,university_students,male,convenience,12,19,total_ed,screen,25,469,5.33%,8
+15,85,2015,安徽,Anhui,芜湖,,province_proxy_city,school,university_students,female,convenience,12,19,total_ed,screen,34,859,3.96%,8
+28,127,2023,安徽,Anhui,芜湖,,province_proxy_city,school,high_school,mixed,convenience,12,19,total_ed,screen,445,2008,22.16%,8
+1,1,2000.5,北京,Beijing,,,province_exact,school,high_school,female,stratified,12,19,total_ed,diagnosis,2,246,0.81%,8
+1,2,2000.5,北京,Beijing,,,province_exact,school,high_school,female,stratified,12,19,an,diagnosis,0,246,0.00%,9
+1,3,2000.5,北京,Beijing,,,province_exact,school,high_school,female,stratified,12,19,bn,diagnosis,0,246,0.00%,9
+1,4,2000.5,北京,Beijing,,,province_exact,school,high_school,female,stratified,12,19,bed,diagnosis,2,246,0.81%,9
+34,139,2023,北京,Beijing,,,province_exact,school,university_students,female,convenience,12,19,total_ed,unknown,10,211,4.74%,9
+34,140,2023,北京,Beijing,,,province_exact,school,university_students,female,convenience,12,19,an,unknown,0,212,0.00%,9
+34,141,2023,北京,Beijing,,,province_exact,school,university_students,female,convenience,12,19,bn,unknown,0,213,0.00%,9
+34,142,2023,北京,Beijing,,,province_exact,school,university_students,female,convenience,12,19,other,unknown,10,214,4.67%,9
+46,170,2011,北京、上海、重庆、辽宁、黑龙江、江苏、山东、河南、湖北、湖南、广西、贵州,,,,multi_province,other,other,female,cluster_random,12,19,total_ed,screen,41,322,12.73%,9
+46,171,2011,北京、上海、重庆、辽宁、黑龙江、江苏、山东、河南、湖北、湖南、广西、贵州,,,,multi_province,other,other,female,cluster_random,12,19,total_ed,screen,110,1173,9.38%,9
+22,101,2015,北京、重庆、广西、贵州、黑龙江、河南、湖北、湖南、江苏、辽宁、陕西、山东、上海、云南、浙江,,,,multi_province,community,other,female,cluster_random,12,19,total_ed,screen,296,4206,7.04%,9
+22,102,2015,北京、重庆、广西、贵州、黑龙江、河南、湖北、湖南、江苏、辽宁、陕西、山东、上海、云南、浙江,,,,multi_province,community,other,female,cluster_random,12,19,total_ed,screen,24,369,6.50%,9
+22,103,2015,北京、重庆、广西、贵州、黑龙江、河南、湖北、湖南、江苏、辽宁、陕西、山东、上海、云南、浙江,,,,multi_province,community,other,female,cluster_random,12,19,total_ed,screen,272,3837,7.09%,9
+22,104,2015,北京、重庆、广西、贵州、黑龙江、河南、湖北、湖南、江苏、辽宁、陕西、山东、上海、云南、浙江,,,,multi_province,community,other,female,cluster_random,12,19,an,unknown,22,4206,0.52%,9
+22,105,2015,北京、重庆、广西、贵州、黑龙江、河南、湖北、湖南、江苏、辽宁、陕西、山东、上海、云南、浙江,,,,multi_province,community,other,female,cluster_random,12,19,bn,unknown,28,4206,0.67%,9
+22,106,2015,北京、重庆、广西、贵州、黑龙江、河南、湖北、湖南、江苏、辽宁、陕西、山东、上海、云南、浙江,,,,multi_province,community,other,female,cluster_random,12,19,bed,unknown,84,4206,2.00%,9
+1,9,2000.5,广东,Guangdong,广州,,province_proxy_city,school,high_school,female,stratified,12,19,total_ed,diagnosis,1,193,0.52%,9
+1,10,2000.5,广东,Guangdong,广州,,province_proxy_city,school,high_school,female,stratified,12,19,an,diagnosis,0,193,0.00%,9
+1,11,2000.5,广东,Guangdong,广州,,province_proxy_city,school,high_school,female,stratified,12,19,bn,diagnosis,0,193,0.00%,9
+1,12,2000.5,广东,Guangdong,广州,,province_proxy_city,school,high_school,female,stratified,12,19,bed,diagnosis,1,193,0.52%,9
+4,32,2022,广东,Guangdong,汕头,,province_proxy_city,school,university_students,mixed,convenience,17,19,total_ed,screen,480,1643,29.21%,9
+4,33,2022,广东,Guangdong,汕头,,province_proxy_city,school,university_students,male,convenience,17,19,total_ed,screen,203,797,25.47%,9
+4,34,2022,广东,Guangdong,汕头,,province_proxy_city,school,university_students,female,convenience,17,19,total_ed,screen,277,846,32.74%,9
+9,40,1996,广东,Guangdong,深圳,,province_proxy_city,school,high_school,female,cluster_random,17,19,total_ed,screen,14.872,286,5.20%,9
+37,143,2011,广东,Guangdong,东莞,,province_proxy_city,school,high_school,mixed,stratified,18,20,total_ed,screen,69,3351,2.06%,9
+37,144,2011,广东,Guangdong,东莞,,province_proxy_city,school,high_school,male,stratified,18,20,total_ed,screen,22,1535,1.43%,9
+37,145,2011,广东,Guangdong,东莞,,province_proxy_city,school,high_school,female,stratified,18,20,total_ed,screen,39,1816,2.15%,9
+1,13,2000.5,贵州,Guizhou,遵义,,province_proxy_city,school,high_school,female,stratified,16,,total_ed,diagnosis,1,195,0.51%,9
+1,14,2000.5,贵州,Guizhou,遵义,,province_proxy_city,school,high_school,female,stratified,16,,an,diagnosis,1,195,0.51%,9
+1,15,2000.5,贵州,Guizhou,遵义,,province_proxy_city,school,high_school,female,stratified,16,,bn,diagnosis,0,195,0.00%,9
+1,16,2000.5,贵州,Guizhou,遵义,,province_proxy_city,school,high_school,female,stratified,16,25,bed,diagnosis,0,195,0.00%,9
+12,46,2023,贵州,Guizhou,,,province_proxy_city,school,high_school,mixed,convenience,18,25,total_ed,screen,206,1654,12.45%,9
+12,47,2023,贵州,Guizhou,,,province_proxy_city,school,high_school,male,convenience,13,16,total_ed,screen,79,737,10.72%,9
+12,48,2023,贵州,Guizhou,,,province_proxy_city,school,high_school,female,convenience,14,19,total_ed,screen,127,917,13.85%,9
+14,58,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,male,convenience,16,18,total_ed,screen,7,783,0.89%,9
+14,59,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,male,convenience,16,18,an,screen,0,783,0.00%,9
+14,60,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,male,convenience,16,18,bn,screen,0,783,0.00%,9
+14,61,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,male,convenience,11,18,bed,screen,0,783,0.00%,9
+14,62,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,male,convenience,11,18,other,screen,7,783,0.89%,9
+14,63,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,female,convenience,11,18,total_ed,screen,42,1320,3.18%,9
+14,64,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,female,convenience,12,25,an,screen,0,1320,0.00%,9
+14,65,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,female,convenience,12,20,bn,screen,8,1320,0.61%,9
+14,66,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,female,convenience,12,20,bed,screen,9,1320,0.68%,9
+14,67,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,female,convenience,12,20,other,screen,25,1320,1.89%,9
+14,68,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,mixed,convenience,17,25,total_ed,screen,22,614,3.58%,9
+14,69,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,mixed,convenience,17,25,an,screen,0,614,0.00%,9
+14,70,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,mixed,convenience,17,25,bn,screen,1,614,0.16%,9
+14,71,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,mixed,convenience,17,25,bed,screen,3,614,0.49%,9
+14,72,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,mixed,convenience,17,25,other,screen,18,614,2.93%,9
+14,73,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,mixed,convenience,17,25,total_ed,screen,18,862,2.09%,9
+14,74,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,mixed,convenience,17,25,an,screen,0,862,0.00%,9
+14,75,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,mixed,convenience,17,25,bn,screen,7,862,0.81%,9
+14,76,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,mixed,convenience,17,25,bed,screen,5,862,0.58%,9
+14,77,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,mixed,convenience,12,22,other,screen,6,862,0.70%,9
+14,78,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,mixed,convenience,12,22,total_ed,screen,9,687,1.31%,9
+14,79,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,mixed,convenience,12,22,an,screen,0,687,0.00%,9
+14,80,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,mixed,convenience,12,22,bn,screen,0,687,0.00%,9
+14,81,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,mixed,convenience,12,22,bed,screen,1,687,0.15%,9
+14,82,2005,贵州、重庆、云南、四川、广西、山西、湖北、四川,,遵义、重庆、昆明、成都、贵阳、柳州、忻州、潜江、内江、西昌,,multi_province,school,high_school & university_students,mixed,convenience,12,22,other,screen,8,687,1.16%,9
+33,136,2023,河北,Hebei,保定,,province_proxy_city,school,high_school,mixed,cluster_random,12,22,total_ed,screen,1735,6198,27.99%,9
+33,137,2023,河北,Hebei,保定,,province_proxy_city,school,high_school,male,cluster_random,12,22,total_ed,screen,423,3128,13.52%,9
+33,138,2023,河北,Hebei,保定,,province_proxy_city,school,high_school,female,cluster_random,12,22,total_ed,screen,771,3070,25.11%,9
+1,17,2000.5,河南,Henan,新乡,,province_proxy_city,school,high_school,female,stratified,12,22,total_ed,diagnosis,1,205,0.49%,9
+1,18,2000.5,河南,Henan,新乡,,province_proxy_city,school,high_school,female,stratified,12,15,an,diagnosis,0,205,0.00%,9
+1,19,2000.5,河南,Henan,新乡,,province_proxy_city,school,high_school,female,stratified,12,15,bn,diagnosis,0,205,0.00%,9
+1,20,2000.5,河南,Henan,新乡,,province_proxy_city,school,high_school,female,stratified,12,15,bed,diagnosis,1,205,0.49%,9
+10,42,2015,黑龙江,Heilongjiang,鸡西,,province_proxy_city,school,university_students,mixed,cluster_random,12,15,total_ed,screen,112,398,28.14%,9
+10,43,2015,黑龙江,Heilongjiang,鸡西,,province_proxy_city,school,university_students,male,cluster_random,12,15,total_ed,screen,54,199,27.14%,9
+10,44,2015,黑龙江,Heilongjiang,鸡西,,province_proxy_city,school,university_students,female,cluster_random,16,18,total_ed,screen,58,190,30.53%,9
+40,152,2023,黑龙江,Heilongjiang,哈尔滨,,province_proxy_city,school,university_students,male,random,16,18,total_ed,screen,24,212,11.32%,9
+40,153,2023,黑龙江,Heilongjiang,哈尔滨,,province_proxy_city,school,university_students,female,random,16,18,total_ed,screen,43,361,11.91%,9
+17,89,2009,黑龙江、辽宁、山东、江苏、河南、湖南、湖北、广西、贵州,,,,multi_province,community,other,female,cluster_random,16,18,total_ed,screen,20,256,7.81%,9
+17,90,2009,黑龙江、辽宁、山东、江苏、河南、湖南、湖北、广西、贵州,,,,multi_province,community,community_adult,female,cluster_random,16,18,total_ed,screen,54,853,6.33%,9
+2,25,2009,湖北,Hubei,武汉,,province_proxy_city,school,university_students,female,convenience,19,22,total_ed,diagnosis,638.3664,8444,7.56%,9
+2,26,2009,湖北,Hubei,武汉,,province_proxy_city,school,university_students,female,convenience,19,22,an,diagnosis,251.6312,8444,2.98%,9
+2,27,2009,湖北,Hubei,武汉,,province_proxy_city,school,university_students,female,convenience,19,22,bn,diagnosis,88.662,8444,1.05%,9
+2,28,2009,湖北,Hubei,武汉,,province_proxy_city,school,university_students,female,convenience,19,22,bed,diagnosis,298.0732,8444,3.53%,9
+9,41,1996,湖南,Hunan,,,province_exact,school,high_school,female,cluster_random,19,22,total_ed,screen,6.65,266,2.50%,9
+45,167,2016,湖南,Hunan,长沙、湘潭、常德、衡阳,,province_proxy_city,school,high_school,mixed,cluster_random,16,24,total_ed,screen,264,3743,7.05%,9
+45,168,2016,湖南,Hunan,长沙、湘潭、常德、衡阳,,province_proxy_city,school,high_school,male,cluster_random,16,24,total_ed,screen,73,1768,4.13%,9
+45,169,2016,湖南,Hunan,长沙、湘潭、常德、衡阳,,province_proxy_city,school,high_school,female,cluster_random,16,24,total_ed,screen,191,1957,9.76%,9
+48,173,2020,湖南,Hunan,长沙,,province_proxy_city,school,high_school,mixed,cluster_random,18,,total_ed,screen,144,1610,8.94%,9
+48,174,2020,湖南,Hunan,长沙,,province_proxy_city,school,high_school,male,cluster_random,18,,total_ed,screen,85,847,10.04%,9
+48,175,2020,湖南,Hunan,长沙,,province_proxy_city,school,high_school,female,cluster_random,18,,total_ed,screen,59,763,7.73%,9
+24,110,2021,吉林,Jilin,,,province_exact,school,university_students,mixed,convenience,12,17,total_ed,screen,36980,96218,38.43%,9
+24,111,2021,吉林,Jilin,,,province_exact,school,university_students,male,convenience,18,35,total_ed,screen,12499,40065,31.20%,9
+24,112,2021,吉林,Jilin,,,province_exact,school,university_students,female,convenience,18,22,total_ed,screen,24481,56153,43.60%,9
+21,100,2021,江苏,Jiangsu,南京,,province_proxy_city,school,university_students,mixed,convenience,11,18,total_ed,screen,66.7665,401,16.65%,9
+39,149,2023,江苏,Jiangsu,扬州,,province_proxy_city,school,university_students,mixed,stratified,11,18,total_ed,screen,830,5201,15.96%,9
+39,150,2023,江苏,Jiangsu,扬州,,province_proxy_city,school,university_students,male,stratified,11,18,total_ed,screen,264,1747,15.11%,9
+39,151,2023,江苏,Jiangsu,扬州,,province_proxy_city,school,university_students,female,stratified,11,14,total_ed,screen,566,3454,16.39%,9
+11,45,2006,江苏，新疆,,南京，乌鲁木齐,,province_proxy_city,school,high_school & university_students,female,convenience,15,18,total_ed,screen,97,694,13.98%,9
+3,29,2023.5,江西,Jiangxi,,,province_proxy_city,school,university_students,mixed,cluster_random,17,29,total_ed,screen,109,454,24.01%,9
+3,30,2023.5,江西,Jiangxi,,,province_proxy_city,school,university_students,male,cluster_random,17,29,total_ed,screen,66,333,19.82%,9
+3,31,2023.5,江西,Jiangxi,,,province_proxy_city,school,university_students,female,cluster_random,17,29,total_ed,screen,43,121,35.54%,9
+42,157,2010,江西,Jiangxi,,,province_exact,school,university_students,female,cluster_random,18,35,total_ed,screen,9,560,1.61%,9
+1,21,2000.5,宁夏,Ningxia,银川,,province_proxy_city,school,high_school,female,stratified,12,50,total_ed,diagnosis,4,209,1.91%,9
+1,22,2000.5,宁夏,Ningxia,银川,,province_proxy_city,school,high_school,female,stratified,12,17,an,diagnosis,1,209,0.48%,9
+1,23,2000.5,宁夏,Ningxia,银川,,province_proxy_city,school,high_school,female,stratified,18,50,bn,diagnosis,0,209,0.00%,9
+1,24,2000.5,宁夏,Ningxia,银川,,province_proxy_city,school,high_school,female,stratified,12,50,bed,diagnosis,3,209,1.44%,9
+6,36,2022,全国,National,,,national,school,university_students,mixed,convenience,12,50,total_ed,screen,1030,2213,46.54%,9
+16,86,2013,全国,National,,,national,community,community_adult,mixed,cluster_random,12,50,total_ed,diagnosis,13,28140,0.05%,9
+16,87,2013,全国,National,,,national,community,community_adult,mixed,cluster_random,12,18,an,diagnosis,8,28140,0.03%,9
+16,88,2013,全国,National,,,national,community,community_adult,mixed,cluster_random,12,18,bn,diagnosis,5,28140,0.02%,9
+25,113,2023,全国,National,,,national,other,other,mixed,convenience,12,18,total_ed,screen,3834,9270,41.36%,9
+25,114,2023,全国,National,,,national,other,other,male,convenience,,,total_ed,screen,1980,4789,41.34%,9
+25,115,2023,全国,National,,,national,other,other,female,convenience,,,total_ed,screen,1854,4481,41.37%,9
+25,116,2023,全国,National,,,national,other,other,mixed,convenience,,,total_ed,screen,1583,3858,41.03%,9
+25,117,2023,全国,National,,,national,other,other,mixed,convenience,11,25,total_ed,screen,1433,3535,40.54%,9
+25,118,2023,全国,National,,,national,other,other,mixed,convenience,11,25,total_ed,screen,818,1877,43.58%,9
+27,124,2023,全国,National,,,national,school,university_students,mixed,random,11,25,total_ed,screen,242,946,25.58%,9
+27,125,2023,全国,National,,,national,school,university_students,male,random,11,15,total_ed,screen,96,460,20.87%,9
+27,126,2023,全国,National,,,national,school,university_students,female,random,16,20,total_ed,screen,146,486,30.04%,9
+29,128,2020.5,全国,National,,,national,other,other,mixed,convenience,21,25,total_ed,screen,32,342,9.36%,9
+18,91,2019,山东,Shandong,,,province_exact,school,university_students,mixed,stratified,12,19,total_ed,screen,,1181,6.49%,9
+19,92,2017,山东,Shandong,日照,,province_proxy_city,school,high_school,mixed,random,12,19,total_ed,screen,106,1231,8.61%,9
+19,93,2017,山东,Shandong,日照,,province_proxy_city,school,high_school,male,random,12,19,total_ed,screen,32,587,5.45%,9
+19,94,2017,山东,Shandong,日照,,province_proxy_city,school,high_school,female,random,12,19,total_ed,screen,74,644,11.49%,9
+19,95,2017,山东,Shandong,日照,,province_proxy_city,school,high_school,mixed,random,12,19,total_ed,screen,96,679,14.14%,9
+19,96,2017,山东,Shandong,日照,,province_proxy_city,school,high_school,mixed,random,18,24,total_ed,screen,56,522,10.73%,9
+41,154,2019,山东,Shandong,济南,,province_proxy_city,school,university_students,mixed,cluster_random,18,24,total_ed,screen,452,2712,16.67%,9
+41,155,2019,山东,Shandong,济南,,province_proxy_city,school,university_students,male,cluster_random,18,24,total_ed,screen,134,1292,10.37%,9
+41,156,2019,山东,Shandong,济南,,province_proxy_city,school,university_students,female,cluster_random,,,total_ed,screen,318,1420,22.39%,9
+47,172,2016,山东,Shandong,,,province_exact,school,university_students,female,convenience,18,72,total_ed,screen,99,1938,5.11%,9
+5,35,2023,山西，湖南,,,,multi_province,school,university_students,mixed,convenience,12,18,total_ed,screen,1012.92,11010,9.20%,9
+32,135,2007,陕西,Shaanxi,西安,,province_proxy_city,school,university_students,female,convenience,12,18,total_ed,screen,56.511,207,27.30%,9
+1,5,2000.5,上海,Shanghai,,,province_exact,school,high_school,female,stratified,12,18,total_ed,diagnosis,1,203,0.49%,9
+1,6,2000.5,上海,Shanghai,,,province_exact,school,high_school,female,stratified,12,19,an,diagnosis,0,203,0.00%,9
+1,7,2000.5,上海,Shanghai,,,province_exact,school,high_school,female,stratified,12,19,bn,diagnosis,0,203,0.00%,9
+1,8,2000.5,上海,Shanghai,,,province_exact,school,high_school,female,stratified,12,19,bed,diagnosis,0,203,0.00%,9
+43,158,2017.5,上海,Shanghai,,,province_exact,school,university_students,mixed,cluster_random,18,41,total_ed,diagnosis,9,471,1.91%,9
+43,159,2017.5,上海,Shanghai,,,province_exact,school,university_students,mixed,cluster_random,7,20,an,diagnosis,3,471,0.64%,9
+43,160,2017.5,上海,Shanghai,,,province_exact,school,university_students,mixed,cluster_random,7,20,bn,diagnosis,6,471,1.27%,9
+43,161,2017.5,上海,Shanghai,,,province_exact,school,university_students,mixed,cluster_random,7,20,total_ed,screen,1536,5024,30.57%,9
+43,162,2017.5,上海,Shanghai,,,province_exact,school,university_students,male,cluster_random,17,24,total_ed,screen,311,1577,19.72%,9
+43,163,2017.5,上海,Shanghai,,,province_exact,school,university_students,female,cluster_random,17,24,total_ed,screen,1225,3447,35.54%,9
+44,165,2015,上海,Shanghai,,,province_exact,school,other,male,cluster_random,17,24,total_ed,screen,72,694,10.37%,9
+44,166,2015,上海,Shanghai,,,province_exact,school,other,female,cluster_random,17,24,total_ed,screen,102,664,15.36%,9
+20,97,2021,四川,Sichuan,成都,,province_proxy_city,school,university_students,mixed,cluster_random,11,18,total_ed,screen,116,1112,10.43%,9
+20,98,2021,四川,Sichuan,成都,,province_proxy_city,school,university_students,male,cluster_random,11,18,total_ed,screen,56,433,12.93%,9
+20,99,2021,四川,Sichuan,成都,,province_proxy_city,school,university_students,female,cluster_random,11,18,total_ed,screen,60,679,8.84%,9
+38,146,2005,四川,Sichuan,成都,,province_proxy_city,school,other,female,stratified,12,22,total_ed,screen,46,1378,3.34%,9
+38,147,2005,四川,Sichuan,成都,,province_proxy_city,school,university_students,female,stratified,,,total_ed,screen,9,621,1.45%,9
+38,148,2005,四川,Sichuan,成都,,province_proxy_city,school,high_school,female,stratified,,,total_ed,screen,37,757,4.89%,9
+44,164,2015,四川,Sichuan,成都,,province_proxy_city,school,university_students,female,cluster_random,17,30,total_ed,screen,44,450,9.78%,9
+7,37,2019,台湾,Taiwan,新北,,province_proxy_city,school,high_school,mixed,convenience,17,30,total_ed,screen,53,511,10.37%,9
+8,38,2019,香港,Hong Kong,,,province_exact,school,high_school,female,convenience,17,30,total_ed,screen,19,294,6.46%,9
+9,39,1996,香港,Hong Kong,,,province_exact,school,high_school,female,cluster_random,17,31,total_ed,screen,26.352,244,10.80%,9
+13,49,1991,香港,Hong Kong,,,province_exact,school,university_students,mixed,stratified,17,31,total_ed,diagnosis,0,1020,0.00%,9
+13,50,1991,香港,Hong Kong,,,province_exact,school,university_students,mixed,stratified,17,23,total_ed,diagnosis,0,1020,0.00%,9
+13,51,1991,香港,Hong Kong,,,province_exact,school,university_students,mixed,stratified,17,23,total_ed,diagnosis,0,1020,0.00%,9
+13,52,1991,香港,Hong Kong,,,province_exact,school,university_students,male,stratified,17,23,total_ed,diagnosis,0,374,0.00%,9
+13,53,1991,香港,Hong Kong,,,province_exact,school,university_students,male,stratified,16,24,an,diagnosis,0,374,0.00%,9
+13,54,1991,香港,Hong Kong,,,province_exact,school,university_students,male,stratified,16,23,bn,diagnosis,0,374,0.00%,9
+13,55,1991,香港,Hong Kong,,,province_exact,school,university_students,female,stratified,16,23,total_ed,diagnosis,0,646,0.00%,9
+13,56,1991,香港,Hong Kong,,,province_exact,school,university_students,female,stratified,16,23,an,diagnosis,0,646,0.00%,9
+13,57,1991,香港,Hong Kong,,,province_exact,school,university_students,female,stratified,16,25,bn,diagnosis,0,646,0.00%,9
+26,119,2023,香港,Hong Kong,,,province_exact,school,high_school,male,convenience,16,25,bn,unknown,1,506,0.20%,9
+26,120,2023,香港,Hong Kong,,,province_exact,school,high_school,female,convenience,16,25,bn,unknown,3,720,0.42%,9
+26,121,2023,香港,Hong Kong,,,province_exact,school,high_school,mixed,convenience,17,22,bed,unknown,6,1224,0.49%,9
+26,122,2023,香港,Hong Kong,,,province_exact,school,high_school,male,convenience,12,18,bed,unknown,0,506,0.00%,9
+26,123,2023,香港,Hong Kong,,,province_exact,school,high_school,female,convenience,12,18,bed,unknown,6,720,0.83%,9
+30,129,2007,香港,Hong Kong,,,province_exact,school,high_school,mixed,cluster_random,11,19,total_ed,screen,197,893,22.06%,9
+30,130,2007,香港,Hong Kong,,,province_exact,school,high_school,male,cluster_random,11,19,total_ed,screen,93,502,18.53%,9
+30,131,2007,香港,Hong Kong,,,province_exact,school,high_school,female,cluster_random,11,19,total_ed,screen,104,391,26.60%,9
+31,132,2007,香港,Hong Kong,,,province_exact,school,high_school,mixed,cluster_random,12,17,total_ed,screen,28,746,3.75%,9
+31,133,2007,香港,Hong Kong,,,province_exact,school,high_school,male,cluster_random,18,35,total_ed,screen,13,359,3.62%,9
+31,134,2007,香港,Hong Kong,,,province_exact,school,high_school,female,cluster_random,17,24,total_ed,screen,15,387,3.88%,9
+49,176,2013.5,新疆,Xinjiang,乌鲁木齐,,province_proxy_city,community,community_adult,mixed,cluster_random,11,16,total_ed,diagnosis,1,1782,0.06%,9
+23,107,2008,重庆,Chongqing,,,province_exact,school,high_school,mixed,convenience,11,16,bn,screen,49,3084,1.59%,9
+23,108,2008,重庆,Chongqing,,,province_exact,school,high_school,male,convenience,11,16,bn,screen,18,1488,1.21%,9
+23,109,2008,重庆,Chongqing,,,province_exact,school,high_school,female,convenience,18,65,bn,screen,31,1593,1.95%,9
